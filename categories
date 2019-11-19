@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "desc": "Estratégia"
+    },
+    {
+      "id": 2,
+      "desc": "Cadastro"
+    },
+    {
+      "id": 3,
+      "desc": "1º contato"
+    },
+    {
+      "id": 4,
+      "desc": "2º contato"
+    },
+    {
+      "id": 5,
+      "desc": "Agendamento"
+    },
+    {
+      "id": 6,
+      "desc": "Pendente"
+    }
+  ]
+}
