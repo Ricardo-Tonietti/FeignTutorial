@@ -5,7 +5,7 @@ public class TodoModel {
 	private String userId;
 	private int id;
 	private String title;
-	private boolean completed;
+	//private boolean completed;
 
 	public String getUserId() {
 		return userId;
@@ -31,17 +31,16 @@ public class TodoModel {
 		this.title = title;
 	}
 
-	public boolean isCompleted() {
-		return completed;
-	}
-
-	public void setCompleted(boolean completed) {
-		this.completed = completed;
-	}
+	/*
+	 * public boolean isCompleted() { return completed; }
+	 * 
+	 * public void setCompleted(boolean completed) { this.completed = completed; }
+	 */
 
 	@Override
 	public String toString() {
-		return "TodoModel [userId=" + userId + ", id=" + id + ", title=" + title + ", completed=" + completed + "]";
+		return "TodoModel [userId=" + userId + ", id=" + id + ", title=" + title + ", "
+				+ "completed=" + "teste" + "]";
 	}
 
 	
